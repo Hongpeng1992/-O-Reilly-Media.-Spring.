@@ -7,16 +7,16 @@ import org.springframework.stereotype.Component;
 
 import java.util.logging.Logger;
 
-@Aspect
-@Component
-public class LoggingAspect {
-	private Logger logger = Logger.getLogger(getClass().getName());
-
-	@Before("execution(void lesson08..*.set*(*))")
-	public void callSetters(JoinPoint joinPoint) {
-		String method = joinPoint.getSignature().getName();
-		String arg = joinPoint.getArgs()[0].toString();
-		logger.info("called + " + method + " with arg " + arg + " on " + joinPoint.getTarget());
-	}
-
-}
+//@Aspect
+//@Component
+//public class LoggingAspect {
+//	private Logger logger = Logger.getLogger(getClass().getName());
+//
+//	@Before("execution(void lesson08..*.set*(*))")
+//	public void callSetters(JoinPoint joinPoint) {
+//		String method = joinPoint.getSignature().getName();
+//		String arg = joinPoint.getArgs()[0].toString();
+//		logger.info("called + " + method + " with arg " + arg + " on " + joinPoint.getTarget());
+//	}
+//
+//}

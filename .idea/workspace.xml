@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac5aba3-95ed-49ef-a150-af3a13d6c33e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/lesson08/aspects/LoggingAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/lesson09/aspects/LoggingAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/lesson10/aspects/LoggingAspect.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/springframework_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/springframework_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/springframework_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/springframework_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java" afterPath="$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java" afterPath="$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,6 +60,12 @@
                 <item name="springframework" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="springframework" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -62,11 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/config/AppConfig.java">
+      <file leaf-file-name="LoggingAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson09/aspects/LoggingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,19 +87,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcAccountRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/repositories/JdbcAccountRepository.java">
+      <file leaf-file-name="LoggingAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1505844926000" expanded="true" signature="1055:1076" ph="select * fro... account" />
-                <marker date="1505844926000" expanded="true" signature="1203:1237" ph="select * fro... account" />
-                <marker date="1505844926000" expanded="true" signature="1374:1402" ph="select count... account" />
-                <marker date="1505844926000" expanded="true" signature="1550:1595" ph="insert into account... " />
-                <marker date="1505844926000" expanded="true" signature="1758:1790" ph="delete from " />
-                <marker date="1505844926000" expanded="true" signature="1909:1952" ph="update accou... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingAspect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/aspects/LoggingAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +118,8 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -285,8 +304,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4517453215000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2377952264" />
+        <entry key="$PROJECT_DIR$" value="4517456197000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="832693713" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
       </map>
     </option>
@@ -461,9 +480,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/lesson02/infrastructure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson02/infrastructureConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson02/entities/BaseballGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson02/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson03/entities/BaseballGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson03/entities/RedSox.java" />
@@ -495,23 +511,26 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson08/aspects/LogginAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson08/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson08/entities/RedSox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson09/aspects/LoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson09/RunDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson09/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/entities/Royals.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson10/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson10/entities/BaseballGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/repositories/AccountRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/config/Appconfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/services/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/prod.properties" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson11/repositories/JdbcAccountRepository.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson11/repositories/JdbcAccountRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson11/services/AccountServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson09/aspects/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson10/aspects/LoggingAspect.java" />
       </list>
     </option>
   </component>
@@ -594,6 +613,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson11" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSpring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -612,6 +640,27 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSpring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="springframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSpring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSpring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson11" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -627,6 +676,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson11.services" />
+      <recent name="lesson11.repositories" />
       <recent name="lesson10.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -656,19 +707,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BaseballGameTest">
-    <configuration name="BaseballGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.lesson11 in springframework_test">
+    <configuration name="AccountServiceTest.testDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lesson10.entities.*" />
+          <option name="PATTERN" value="lesson11.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="springframework_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lesson10.entities" />
-      <option name="MAIN_CLASS_NAME" value="lesson10.entities.BaseballGameTest" />
+      <option name="PACKAGE_NAME" value="lesson11.services" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.services.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testDeposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AccountServiceTest.testWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson11.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springframework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lesson11.services" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.services.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testWithdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JdbcAccountRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson11.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springframework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lesson11.repositories" />
+      <option name="MAIN_CLASS_NAME" value="lesson11.repositories.JdbcAccountRepositoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -682,87 +783,22 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BaseballGameTest.playGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lesson10.entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springframework_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lesson10.entities" />
-      <option name="MAIN_CLASS_NAME" value="lesson10.entities.BaseballGameTest" />
-      <option name="METHOD_NAME" value="playGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RunDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lesson09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lesson09.RunDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springframework_main" />
-      <envs />
-    </configuration>
-    <configuration name="RunDemo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lesson07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lesson07.RunDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springframework_main" />
-      <envs />
-    </configuration>
-    <configuration name="RunDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lesson08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lesson08.RunDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springframework_main" />
-      <envs />
+    <configuration name="LearnSpring [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -844,20 +880,45 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="lesson11 in springframework_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springframework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lesson11" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RunDemo (5)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RunDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RunDemo (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BaseballGameTest.playGame" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BaseballGameTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcAccountRepositoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.LearnSpring [build]" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.testDeposit" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.testWithdraw" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.lesson11 in springframework_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BaseballGameTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BaseballGameTest.playGame" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RunDemo (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RunDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RunDemo (5)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.lesson11 in springframework_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.testWithdraw" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountServiceTest.testDeposit" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.LearnSpring [build]" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcAccountRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -871,42 +932,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505805176462</updated>
-      <workItem from="1505805178603" duration="18294000" />
+      <workItem from="1505805178603" duration="20166000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 17m 39s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="AccountServiceTest_testDeposit - 2017.09.19 at 21h 43m 12s.xml">
+      <configuration name="AccountServiceTest.testDeposit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 20m 18s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="AccountServiceTest_testDeposit - 2017.09.19 at 21h 43m 27s.xml">
+      <configuration name="AccountServiceTest.testDeposit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 21m 38s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="AccountServiceTest_testWithdraw - 2017.09.19 at 21h 44m 20s.xml">
+      <configuration name="AccountServiceTest.testWithdraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 23m 13s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="JdbcAccountRepositoryTest - 2017.09.19 at 21h 35m 32s.xml">
+      <configuration name="JdbcAccountRepositoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 23m 21s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="JdbcAccountRepositoryTest - 2017.09.19 at 21h 36m 11s.xml">
+      <configuration name="JdbcAccountRepositoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest - 2017.09.19 at 14h 23m 27s.xml">
-      <configuration name="BaseballGameTest" configurationId="JUnit" />
+    <history-entry file="JdbcAccountRepositoryTest - 2017.09.19 at 21h 37m 06s.xml">
+      <configuration name="JdbcAccountRepositoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest_playGame - 2017.09.19 at 14h 14m 33s.xml">
-      <configuration name="BaseballGameTest.playGame" configurationId="JUnit" />
+    <history-entry file="JdbcAccountRepositoryTest_deleteAccount - 2017.09.19 at 21h 35m 07s.xml">
+      <configuration name="JdbcAccountRepositoryTest.deleteAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseballGameTest_playGame - 2017.09.19 at 14h 15m 07s.xml">
-      <configuration name="BaseballGameTest.playGame" configurationId="JUnit" />
+    <history-entry file="JdbcAccountRepositoryTest_deleteAccount - 2017.09.19 at 21h 35m 25s.xml">
+      <configuration name="JdbcAccountRepositoryTest.deleteAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcAccountRepositoryTest_updateAccount - 2017.09.19 at 21h 34m 20s.xml">
+      <configuration name="JdbcAccountRepositoryTest.updateAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson11_in_springframework_test - 2017.09.19 at 21h 44m 53s.xml">
+      <configuration name="lesson11 in springframework_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18294000" />
+    <option name="totallyTimeSpent" value="20166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="638" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -916,15 +982,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.169279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13828126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30721003" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -952,22 +1018,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson07/entities/Cubs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson07/entities/Royals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson07/entities/RedSox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1110,16 +1160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson09/entities/RedSox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1192,14 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson09/aspects/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson09/RunDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1212,14 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/aspects/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1296,47 +1320,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/services/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/repositories/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1353,14 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1383,10 +1364,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/entities/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson11/services/AccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/services/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson11/repositories/JdbcAccountRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson11/repositories/JdbcAccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="233">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1505844926000" expanded="true" signature="1055:1076" ph="select * fro... account" />
@@ -1395,6 +1412,44 @@
             <marker date="1505844926000" expanded="true" signature="1550:1595" ph="insert into account... " />
             <marker date="1505844926000" expanded="true" signature="1758:1790" ph="delete from " />
             <marker date="1505844926000" expanded="true" signature="1909:1952" ph="update accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson09/aspects/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson08/aspects/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson10/aspects/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

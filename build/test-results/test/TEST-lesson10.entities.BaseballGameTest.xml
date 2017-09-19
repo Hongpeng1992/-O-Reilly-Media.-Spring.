@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lesson10.entities.BaseballGameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-09-19T18:39:07" hostname="alexeyltd.local" time="0.02">
+  <properties/>
+  <testcase name="testPlayGame" classname="lesson10.entities.BaseballGameTest" time="0.015"/>
+  <testcase name="testGetAndSetHomeTeam" classname="lesson10.entities.BaseballGameTest" time="0.001"/>
+  <system-out><![CDATA[Playing National Anthem
+Playing National Anthem
+]]></system-out>
+  <system-err><![CDATA[Sep 19, 2017 9:39:05 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Sep 19, 2017 9:39:05 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Sep 19, 2017 9:39:05 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38866baa, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b60d198, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f6e6af1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73a98e12, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@787970f6]
+Sep 19, 2017 9:39:05 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@29ca642c: startup date [Tue Sep 19 21:39:05 MSK 2017]; root of context hierarchy
+]]></system-err>
+</testsuite>

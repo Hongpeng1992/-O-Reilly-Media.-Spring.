@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class lesson11.repositories.JdbcAccountRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class lesson11.repositories.JdbcAccountRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/lesson11.repositories.html">lesson11.repositories</a> &gt; JdbcAccountRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.220s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createAccount</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteAccount</td>
+<td>0.084s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAccount</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAccounts</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetNumberOfAccount</td>
+<td>0.088s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateAccount</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Sep 19, 2017 9:39:07 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Sep 19, 2017 9:39:07 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Sep 19, 2017 9:39:07 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@12d4b9b0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e1dce11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7bc95e90, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33ed2d8d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4431b79]
+Sep 19, 2017 9:39:07 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@44ee30a6: startup date [Tue Sep 19 21:39:07 MSK 2017]; root of context hierarchy
+Sep 19, 2017 9:39:07 PM org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory initDatabase
+INFO: Starting embedded database: url='jdbc:h2:mem:f49e9583-ebcf-4671-a818-0acbd1e89469;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+Sep 19, 2017 9:39:08 PM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [schema.sql]
+Sep 19, 2017 9:39:08 PM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [schema.sql] in 16 ms.
+Sep 19, 2017 9:39:08 PM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executing SQL script from class path resource [data.sql]
+Sep 19, 2017 9:39:08 PM org.springframework.jdbc.datasource.init.ScriptUtils executeSqlScript
+INFO: Executed SQL script from class path resource [data.sql] in 5 ms.
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@1bf372f0, testMethod = testGetNumberOfAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@1bf372f0, testMethod = testGetNumberOfAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@778190aa, testMethod = deleteAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@778190aa, testMethod = deleteAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@5b1e03b5, testMethod = testGetAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@5b1e03b5, testMethod = testGetAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@cabc52e, testMethod = testGetAccounts@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@cabc52e, testMethod = testGetAccounts@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@106271f4, testMethod = createAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@106271f4, testMethod = createAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext startTransaction
+INFO: Began transaction (1) for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@6f9f1479, testMethod = updateAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@ccccf66]; rollback [true]
+Sep 19, 2017 9:39:08 PM org.springframework.test.context.transaction.TransactionContext endTransaction
+INFO: Rolled back transaction for test context [DefaultTestContext@6f71c7d1 testClass = JdbcAccountRepositoryTest, testInstance = lesson11.repositories.JdbcAccountRepositoryTest@6f9f1479, testMethod = updateAccount@JdbcAccountRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5bb5ede3 testClass = JdbcAccountRepositoryTest, locations = '{}', classes = '{class lesson11.config.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.5-rc-2</a> at Sep 19, 2017 9:39:13 PM</p>
+</div>
+</div>
+</body>
+</html>
