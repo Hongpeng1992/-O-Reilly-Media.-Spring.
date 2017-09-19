@@ -1,4 +1,4 @@
-package lesson07.entities;
+package lesson08.entities;
 
 public interface Game {
 	void setHomeTeam(Team team);

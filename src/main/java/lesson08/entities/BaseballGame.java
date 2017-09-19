@@ -1,4 +1,4 @@
-package lesson07.entities;
+package lesson08.entities;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

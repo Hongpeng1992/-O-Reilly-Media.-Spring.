@@ -10,27 +10,29 @@ import java.text.NumberFormat;
 public class RunDemo {
 	public static void main(String[] args) {
 
-		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
 //		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-		final NumberFormat numberFormat = context.getBean(NumberFormat.class);
+//		final NumberFormat numberFormat = context.getBean(NumberFormat.class);
 
-		double number = 123123;
+//		double number = 123123;
 
-		System.out.println(numberFormat.format(number));
+//		System.out.println(numberFormat.format(number));
 
-		Team royals = context.getBean("royals", Team.class);
+//		Team royals = context.getBean("royals", Team.class);
 
 		Game game1 = context.getBean("game", Game.class);
 		System.out.println(game1);
 
-		Game game2 = context.getBean("game", Game.class);
+//		context.close();
 
-		game2.setAwayTeam(royals);
-		System.out.println(game2);
+//		Game game2 = context.getBean("game", Game.class);
 
-		System.out.println(game1);
+//		game2.setAwayTeam(royals);
+//		System.out.println(game2);
+
+//		System.out.println(game1);
 
 //		System.out.println("There are " + context.getBeanDefinitionCount() + " beans");
 //

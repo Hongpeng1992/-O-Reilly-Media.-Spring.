@@ -30,7 +30,7 @@ public class AppConfig {
 	}
 
 	@Bean
-	@Scope("prototype")
+//	@Scope("prototype")
 	public Game game() {
 		BaseballGame baseballGame = new BaseballGame(readSox(), teams.get(1));
 		baseballGame.setDataSource(dataSource);
