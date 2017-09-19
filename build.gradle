@@ -1,0 +1,17 @@
+group 'learn.springframework'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework:spring-context:4.3.11.RELEASE")
+    compile("org.springframework:spring-jdbc:4.3.11.RELEASE")
+    testCompile("org.springframework:spring-test:4.3.11.RELEASE")
+    testCompile("junit:junit:4.12")
+}
