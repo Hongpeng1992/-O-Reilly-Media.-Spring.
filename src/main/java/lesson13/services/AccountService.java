@@ -1,9 +1,8 @@
-package lesson12.services;
+package lesson13.services;
 
-import lesson12.entities.Account;
-import lesson12.repositories.AccountRepository;
+import lesson13.entities.Account;
+import lesson13.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,14 +18,13 @@ public class AccountService {
 
 	@Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
 	public BigDecimal getBalance(Long id) {
-		return repository.getAccount(id).getBalance();
+		return repository.findOne(id).getBalance();
 	}
 
 	public BigDecimal deposit(Long id, BigDecimal amount) {
-		Account account = repository.getAccount(id);
+		Account account = repository.findOne(id);
 		BigDecimal newBalance = account.getBalance().add(amount);
 		account.setBalance(newBalance);
-		repository.updateAccount(account);
 		return newBalance;
 	}
 

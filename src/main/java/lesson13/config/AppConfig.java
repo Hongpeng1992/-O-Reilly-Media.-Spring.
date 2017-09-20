@@ -1,11 +1,15 @@
-package lesson12.config;
+package lesson13.config;
 
-import org.apache.commons.dbcp2.BasicDataSource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
+import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -20,21 +24,20 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = "lesson12")
+@EnableJpaRepositories(basePackages = "lesson13")
 @PropertySource("classpath:prod.properties")
 public class AppConfig {
 
-	@Autowired
-	private Environment environment;
-
 	@Bean()
 	public DataSource dataSource() {
-		BasicDataSource dataSource = new BasicDataSource();
-		dataSource.setDriverClassName(environment.getProperty("db.driver"));
-		dataSource.setUrl(environment.getProperty("db.url"));
-		dataSource.setUsername(environment.getProperty("db.user"));
-		dataSource.setPassword(environment.getProperty("db.pass"));
-		return dataSource;
+		return new EmbeddedDatabaseBuilder()
+				.generateUniqueName(true)
+				.setType(EmbeddedDatabaseType.H2)
+				.setScriptEncoding("UTF-8")
+				.ignoreFailedDrops(true)
+				.addScript("schema.sql")
+				.addScripts("data.sql")
+				.build();
 	}
 
 	@Bean
@@ -42,7 +45,8 @@ public class AppConfig {
 		HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
 		adapter.setShowSql(true);
 		adapter.setGenerateDdl(true);
-		adapter.setDatabase(Database.MYSQL);
+		adapter.setDatabase(Database.H2);
+		adapter.setDatabasePlatform("org.hibernate.dialect.H2Dialect");
 		return adapter;
 	}
 
